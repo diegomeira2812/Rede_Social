@@ -8,8 +8,7 @@ def subscribe_notifications(context, client_id):
     global sub_socket_global
     sub_socket_global = context.socket(zmq.SUB)
     sub_socket_global.connect("tcp://localhost:5560")
-    sub_socket_global.setsockopt_string(zmq.SUBSCRIBE, "")
-    
+    sub_socket_global.setsockopt_string(zmq.SUBSCRIBE, f"PVT|{client_id}|")    
     while True:
         try:
             message = sub_socket_global.recv_string()
@@ -20,7 +19,12 @@ def subscribe_notifications(context, client_id):
         except zmq.ZMQError:
             break
     sub_socket_global.close()
-
+    
+def subscribe_target(target_id):
+    global sub_socket_global
+    if sub_socket_global is not None:
+        topic = f"Cliente {target_id}:"
+        sub_socket_global.setsockopt_string(zmq.SUBSCRIBE, topic)
 def main():
     client_id = sys.argv[1] if len(sys.argv) > 1 else "1"
     context = zmq.Context()
@@ -62,6 +66,7 @@ def main():
                 req_socket.send_string(cmd)
                 reply = req_socket.recv_string()
                 print("\n[Servidor]:", reply)
+                subscribe_target(target_id)
             else:
                 print("\nOpção inválida. Tente: pub, priv, seguir ou sair.")
         except KeyboardInterrupt:

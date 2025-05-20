@@ -14,6 +14,9 @@ sync_lock = threading.Lock()
 # Variável para simular o relógio interno (offset em segundos)
 local_offset = 0
 
+# Dicionario de seguidores
+followers = {}
+
 def get_local_clock():
     """Retorna a hora local simulada (tempo real + offset)."""
     return time.time() + local_offset
@@ -201,6 +204,9 @@ def server_loop(server_id):
                     continue
                 client_id = parts[1]
                 target_id = parts[2]
+                if target_id not in followers:
+                    followers[target_id] = set()
+                followers[target_id].add(client_id)
                 rep_socket.send_string(f"O cliente {client_id} agora segue o {target_id}.")
                 replication_msg = f"REPL|{server_id}|SEGUIR|{client_id}|{target_id}"
                 rep_push_socket.send_string(replication_msg)
@@ -217,11 +223,6 @@ def server_loop(server_id):
                 rep_socket.send_string("Mensagem privada enviada.")
                 replication_msg = f"REPL|{server_id}|PRIV|{sender_id}|{target_id}|{timestamp}|{priv_message}"
                 rep_push_socket.send_string(replication_msg)
-            elif command == "STATUS":
-                rep_socket.send_string("Estado de seguidores: " + str({}))
-            else:
-                rep_socket.send_string("Comando desconhecido.")
-                
         except Exception:
             break
 
