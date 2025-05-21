@@ -19,7 +19,7 @@ REM Inicia 2 instancias do servidor Python em novas janelas
 start cmd /k "python server.py" 1
 start cmd /k "python server.py" 2
 
-REM Inicia 3 instancias do cliente Python em novas janelas
-start cmd /k "python client.py" 1
-start cmd /k "python client.py" 2
-start cmd /k "python client.py" 3
+REM Inicia 3 instancias do cliente C++ (client.exe) em novas janelas
+start cmd /k "client.exe 1"
+start cmd /k "client.exe 2"
+start cmd /k "client.exe 3"
