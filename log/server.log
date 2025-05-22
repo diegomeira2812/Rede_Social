@@ -1,0 +1,518 @@
+2025-05-21 11:06:12,716 [INFO] Servidor 1 iniciado e aguardando comandos...
+2025-05-21 11:06:12,716 [INFO] Servidor 1 escutando mensagens de replicacao, eleicao e sincronizacao.
+2025-05-21 11:06:12,724 [INFO] Servidor 2 iniciado e aguardando comandos...
+2025-05-21 11:06:12,724 [INFO] Servidor 2 escutando mensagens de replicacao, eleicao e sincronizacao.
+2025-05-21 11:06:13,676 [INFO] [2] Iniciando eleicao com delay de 0.9487760721013937 segundos.
+2025-05-21 11:06:13,676 [INFO] Mensagem recebida no canal de replicacao: ELEC|2|ELECTION
+2025-05-21 11:06:13,676 [INFO] Mensagem recebida no canal de replicacao: ELEC|2|ELECTION
+2025-05-21 11:06:13,790 [INFO] [1] Iniciando eleicao com delay de 1.0576991685665724 segundos.
+2025-05-21 11:06:13,790 [INFO] Mensagem recebida no canal de replicacao: ELEC|1|ELECTION
+2025-05-21 11:06:13,790 [INFO] Mensagem recebida no canal de replicacao: ELEC|1|ELECTION
+2025-05-21 11:06:13,790 [INFO] Servidor 2 enviando OK para a eleicao em resposta a 1.
+2025-05-21 11:06:13,790 [INFO] Mensagem recebida no canal de replicacao: ELEC|2|OK
+2025-05-21 11:06:13,790 [INFO] Mensagem recebida no canal de replicacao: ELEC|2|OK
+2025-05-21 11:06:13,790 [INFO] Servidor 1 recebeu OK na eleicao de 2.
+2025-05-21 11:06:13,790 [INFO] Servidor 2 recebeu OK na eleicao de 2.
+2025-05-21 11:06:18,677 [INFO] [2] Declarado como coordenador.
+2025-05-21 11:06:18,677 [INFO] Coordenador 2: pedido de sincronizacao enviado.
+2025-05-21 11:06:18,677 [INFO] Mensagem recebida no canal de replicacao: ELEC|2|COORDINATOR
+2025-05-21 11:06:18,677 [INFO] Mensagem recebida no canal de replicacao: ELEC|2|COORDINATOR
+2025-05-21 11:06:18,677 [INFO] Servidor 2 atualiza coordenador para 2.
+2025-05-21 11:06:18,677 [INFO] Servidor 1 atualiza coordenador para 2.
+2025-05-21 11:06:18,677 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|2|1747836378.677768
+2025-05-21 11:06:18,677 [INFO] Servidor 1 enviou SYNC|REPLY com seu horario.
+2025-05-21 11:06:18,677 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|1|1747836378.677768
+2025-05-21 11:06:18,677 [INFO] Sincronizacao: recebida resposta de 1 com tempo 1747836378.677768.
+2025-05-21 11:06:18,677 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|1|1747836378.677768
+2025-05-21 11:06:18,677 [INFO] Sincronizacao: recebida resposta de 1 com tempo 1747836378.677768.
+2025-05-21 11:06:18,805 [INFO] [1] Declarado como coordenador.
+2025-05-21 11:06:18,805 [INFO] Coordenador 1: pedido de sincronizacao enviado.
+2025-05-21 11:06:18,805 [INFO] Mensagem recebida no canal de replicacao: ELEC|1|COORDINATOR
+2025-05-21 11:06:18,805 [INFO] Mensagem recebida no canal de replicacao: ELEC|1|COORDINATOR
+2025-05-21 11:06:18,805 [INFO] Servidor 1 atualiza coordenador para 1.
+2025-05-21 11:06:18,805 [INFO] Servidor 2 atualiza coordenador para 1.
+2025-05-21 11:06:18,805 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|1|1747836378.8057678
+2025-05-21 11:06:18,805 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|1|1747836378.8057678
+2025-05-21 11:06:18,805 [INFO] Servidor 2 enviou SYNC|REPLY com seu horario.
+2025-05-21 11:06:18,805 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836378.8057678
+2025-05-21 11:06:18,805 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836378.8057678
+2025-05-21 11:06:18,805 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836378.8057678.
+2025-05-21 11:06:18,805 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836378.8057678.
+2025-05-21 11:06:23,682 [INFO] Ajuste de relogio: offset modificado em -3.2939770221710205 segundos. Novo offset: -3.2939770221710205
+2025-05-21 11:06:23,682 [INFO] Coordenador 2: sincronizacao concluida com o ajuste -3.2939770221710205.
+2025-05-21 11:06:23,682 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-3.2939770221710205
+2025-05-21 11:06:23,682 [INFO] Ajuste de relogio: offset modificado em -3.2939770221710205 segundos. Novo offset: -3.2939770221710205
+2025-05-21 11:06:23,682 [INFO] Ajuste de relogio: offset modificado em -3.2939770221710205 segundos. Novo offset: -6.587954044342041
+2025-05-21 11:06:23,682 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -3.2939770221710205.
+2025-05-21 11:06:23,682 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -3.2939770221710205.
+2025-05-21 11:06:23,806 [INFO] Ajuste de relogio: offset modificado em -0.853569507598877 segundos. Novo offset: -4.1475465297698975
+2025-05-21 11:06:23,806 [INFO] Coordenador 1: sincronizacao concluida com o ajuste -0.853569507598877.
+2025-05-21 11:06:23,806 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-0.853569507598877
+2025-05-21 11:06:23,806 [INFO] Ajuste de relogio: offset modificado em -0.853569507598877 segundos. Novo offset: -5.001116037368774
+2025-05-21 11:06:23,806 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-0.853569507598877
+2025-05-21 11:06:23,806 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -0.853569507598877.
+2025-05-21 11:06:23,806 [INFO] Ajuste de relogio: offset modificado em -0.853569507598877 segundos. Novo offset: -7.441523551940918
+2025-05-21 11:06:23,806 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -0.853569507598877.
+2025-05-21 11:06:53,329 [INFO] Servidor 1 recebeu comando: PRIV|1|3|oi
+2025-05-21 11:06:53,337 [INFO] Mensagem privada enviada de 1 para 3: oi
+2025-05-21 11:06:53,337 [INFO] Mensagem recebida no canal de replicacao: REPL|1|PRIV|1|3|2025-05-21 11:06:53|oi
+2025-05-21 11:06:53,337 [INFO] Mensagem recebida no canal de replicacao: REPL|1|PRIV|1|3|2025-05-21 11:06:53|oi
+2025-05-21 11:06:53,690 [INFO] Coordenador 2: pedido de sincronizacao enviado.
+2025-05-21 11:06:53,690 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|2|1747836406.2494621
+2025-05-21 11:06:53,690 [INFO] Servidor 2 enviou SYNC|REPLY com seu horario.
+2025-05-21 11:06:53,690 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836406.2494621
+2025-05-21 11:06:53,690 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836406.2494621
+2025-05-21 11:06:53,690 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836406.2494621.
+2025-05-21 11:06:53,690 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836406.2494621.
+2025-05-21 11:06:53,809 [INFO] Coordenador 1: pedido de sincronizacao enviado.
+2025-05-21 11:06:53,809 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|1|1747836408.8080275
+2025-05-21 11:06:53,809 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|1|1747836408.8080275
+2025-05-21 11:06:53,809 [INFO] Servidor 2 enviou SYNC|REPLY com seu horario.
+2025-05-21 11:06:53,809 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836406.36762
+2025-05-21 11:06:53,809 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836406.36762.
+2025-05-21 11:06:58,704 [INFO] Ajuste de relogio: offset modificado em -2.4479095935821533 segundos. Novo offset: -9.889433145523071
+2025-05-21 11:06:58,704 [INFO] Coordenador 2: sincronizacao concluida com o ajuste -2.4479095935821533.
+2025-05-21 11:06:58,704 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-2.4479095935821533
+2025-05-21 11:06:58,704 [INFO] Ajuste de relogio: offset modificado em -2.4479095935821533 segundos. Novo offset: -12.337342739105225
+2025-05-21 11:06:58,704 [INFO] Ajuste de relogio: offset modificado em -2.4479095935821533 segundos. Novo offset: -7.449025630950928
+2025-05-21 11:06:58,704 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -2.4479095935821533.
+2025-05-21 11:06:58,704 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -2.4479095935821533.
+2025-05-21 11:06:58,811 [INFO] Ajuste de relogio: offset modificado em -2.4974889755249023 segundos. Novo offset: -9.94651460647583
+2025-05-21 11:06:58,811 [INFO] Coordenador 1: sincronizacao concluida com o ajuste -2.4974889755249023.
+2025-05-21 11:06:58,811 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-2.4974889755249023
+2025-05-21 11:06:58,811 [INFO] Ajuste de relogio: offset modificado em -2.4974889755249023 segundos. Novo offset: -12.444003582000732
+2025-05-21 11:06:58,811 [INFO] Ajuste de relogio: offset modificado em -2.4974889755249023 segundos. Novo offset: -14.834831714630127
+2025-05-21 11:06:58,811 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -2.4974889755249023.
+2025-05-21 11:06:58,811 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -2.4974889755249023.
+2025-05-21 11:07:00,659 [INFO] Servidor 2 recebeu comando: PRIV|1|2|tchau
+2025-05-21 11:07:00,659 [INFO] Mensagem privada enviada de 1 para 2: tchau
+2025-05-21 11:07:00,659 [INFO] Mensagem recebida no canal de replicacao: REPL|2|PRIV|1|2|2025-05-21 11:07:00|tchau
+2025-05-21 11:07:00,659 [INFO] Mensagem recebida no canal de replicacao: REPL|2|PRIV|1|2|2025-05-21 11:07:00|tchau
+2025-05-21 11:07:24,418 [INFO] Servidor 1 recebeu comando: PRIV|2|2|fs
+2025-05-21 11:07:24,418 [INFO] Mensagem privada enviada de 2 para 2: fs
+2025-05-21 11:07:24,418 [INFO] Mensagem recebida no canal de replicacao: REPL|1|PRIV|2|2|2025-05-21 11:07:24|fs
+2025-05-21 11:07:24,418 [INFO] Mensagem recebida no canal de replicacao: REPL|1|PRIV|2|2|2025-05-21 11:07:24|fs
+2025-05-21 11:07:28,711 [INFO] Coordenador 2: pedido de sincronizacao enviado.
+2025-05-21 11:07:28,711 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|2|1747836433.876237
+2025-05-21 11:07:28,711 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|2|1747836433.876237
+2025-05-21 11:07:28,711 [INFO] Servidor 2 enviou SYNC|REPLY com seu horario.
+2025-05-21 11:07:28,711 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836433.876237
+2025-05-21 11:07:28,711 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836433.876237
+2025-05-21 11:07:28,711 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836433.876237.
+2025-05-21 11:07:28,711 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836433.876237.
+2025-05-21 11:07:28,821 [INFO] Coordenador 1: pedido de sincronizacao enviado.
+2025-05-21 11:07:28,821 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|1|1747836436.3773131
+2025-05-21 11:07:28,821 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|1|1747836436.3773131
+2025-05-21 11:07:28,821 [INFO] Servidor 2 enviou SYNC|REPLY com seu horario.
+2025-05-21 11:07:28,821 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836433.986485
+2025-05-21 11:07:28,821 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836433.986485.
+2025-05-21 11:07:28,821 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836433.986485
+2025-05-21 11:07:28,821 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836433.986485.
+2025-05-21 11:07:29,736 [INFO] Servidor 2 recebeu comando: SEGUIR|2|1
+2025-05-21 11:07:29,736 [INFO] O cliente 2 comecou a seguir 1.
+2025-05-21 11:07:29,736 [INFO] Mensagem recebida no canal de replicacao: REPL|2|SEGUIR|2|1
+2025-05-21 11:07:29,736 [INFO] Mensagem recebida no canal de replicacao: REPL|2|SEGUIR|2|1
+2025-05-21 11:07:33,716 [INFO] Ajuste de relogio: offset modificado em -2.447411060333252 segundos. Novo offset: -17.28224277496338
+2025-05-21 11:07:33,716 [INFO] Coordenador 2: sincronizacao concluida com o ajuste -2.447411060333252.
+2025-05-21 11:07:33,716 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-2.447411060333252
+2025-05-21 11:07:33,716 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-2.447411060333252
+2025-05-21 11:07:33,716 [INFO] Ajuste de relogio: offset modificado em -2.447411060333252 segundos. Novo offset: -19.72965383529663
+2025-05-21 11:07:33,716 [INFO] Ajuste de relogio: offset modificado em -2.447411060333252 segundos. Novo offset: -14.891414642333984
+2025-05-21 11:07:33,716 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -2.447411060333252.
+2025-05-21 11:07:33,716 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -2.447411060333252.
+2025-05-21 11:07:33,823 [INFO] Ajuste de relogio: offset modificado em -2.472918748855591 segundos. Novo offset: -17.364333391189575
+2025-05-21 11:07:33,823 [INFO] Coordenador 1: sincronizacao concluida com o ajuste -2.472918748855591.
+2025-05-21 11:07:33,824 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-2.472918748855591
+2025-05-21 11:07:33,824 [INFO] Ajuste de relogio: offset modificado em -2.472918748855591 segundos. Novo offset: -19.837252140045166
+2025-05-21 11:07:33,824 [INFO] Mensagem recebida no canal de replicacao: SYNC|ADJUST|ALL|-2.472918748855591
+2025-05-21 11:07:33,824 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -2.472918748855591.
+2025-05-21 11:07:33,824 [INFO] Ajuste de relogio: offset modificado em -2.472918748855591 segundos. Novo offset: -22.20257258415222
+2025-05-21 11:07:33,824 [INFO] Sincronizacao: ajuste aplicado para ALL com offset -2.472918748855591.
+2025-05-21 11:07:36,799 [INFO] Servidor 1 recebeu comando: PRIV|2|1|ouvisa
+2025-05-21 11:07:36,799 [INFO] Mensagem privada enviada de 2 para 1: ouvisa
+2025-05-21 11:07:36,799 [INFO] Mensagem recebida no canal de replicacao: REPL|1|PRIV|2|1|2025-05-21 11:07:36|ouvisa
+2025-05-21 11:07:36,799 [INFO] Mensagem recebida no canal de replicacao: REPL|1|PRIV|2|1|2025-05-21 11:07:36|ouvisa
+2025-05-21 11:07:57,772 [INFO] Servidor 2 recebeu comando: PUB|1|fgergjer
+2025-05-21 11:07:57,772 [INFO] Publicacao de 1 encaminhada: fgergjer
+2025-05-21 11:07:57,772 [INFO] Mensagem recebida no canal de replicacao: REPL|2|PUB|1|2025-05-21 11:07:57|fgergjer
+2025-05-21 11:07:57,772 [INFO] Mensagem recebida no canal de replicacao: REPL|2|PUB|1|2025-05-21 11:07:57|fgergjer
+2025-05-21 11:08:03,720 [INFO] Coordenador 2: pedido de sincronizacao enviado.
+2025-05-21 11:08:03,720 [INFO] Mensagem recebida no canal de replicacao: SYNC|REQUEST|2|1747836461.5180585
+2025-05-21 11:08:03,720 [INFO] Servidor 2 enviou SYNC|REPLY com seu horario.
+2025-05-21 11:08:03,720 [INFO] Mensagem recebida no canal de replicacao: SYNC|REPLY|2|1747836461.5180585
+2025-05-21 11:08:03,720 [INFO] Sincronizacao: recebida resposta de 2 com tempo 1747836461.5180585.
+2025-05-21 11:08:43,676 [INFO] Servidor 2 iniciado e aguardando comandos...
+2025-05-21 11:08:43,676 [INFO] Servidor 1 iniciado e aguardando comandos...
+2025-05-21 11:08:43,676 [INFO] Servidor 2 escutando mensagens de replicação, eleição e sincronização.
+2025-05-21 11:08:43,676 [INFO] Servidor 1 escutando mensagens de replicação, eleição e sincronização.
+2025-05-21 11:08:44,983 [INFO] [2] Iniciando eleição com delay de 1.294355194782007 segundos.
+2025-05-21 11:08:44,983 [INFO] Mensagem recebida no canal de replicação: ELEC|2|ELECTION
+2025-05-21 11:08:44,983 [INFO] Mensagem recebida no canal de replicação: ELEC|2|ELECTION
+2025-05-21 11:08:45,650 [INFO] [1] Iniciando eleição com delay de 1.9503170097079376 segundos.
+2025-05-21 11:08:45,650 [INFO] Mensagem recebida no canal de replicação: ELEC|1|ELECTION
+2025-05-21 11:08:45,650 [INFO] Mensagem recebida no canal de replicação: ELEC|1|ELECTION
+2025-05-21 11:08:45,650 [INFO] Servidor 2 enviando OK para a eleição em resposta a 1.
+2025-05-21 11:08:45,650 [INFO] Mensagem recebida no canal de replicação: ELEC|2|OK
+2025-05-21 11:08:45,650 [INFO] Mensagem recebida no canal de replicação: ELEC|2|OK
+2025-05-21 11:08:45,650 [INFO] Servidor 2 recebeu OK na eleição de 2.
+2025-05-21 11:08:45,650 [INFO] Servidor 1 recebeu OK na eleição de 2.
+2025-05-21 11:08:49,032 [INFO] Servidor 2 recebeu comando: PRIV|1|2|oi
+2025-05-21 11:08:49,032 [INFO] Mensagem privada enviada de 1 para 2: oi
+2025-05-21 11:08:49,032 [INFO] Mensagem recebida no canal de replicação: REPL|2|PRIV|1|2|2025-05-21 11:08:49|oi
+2025-05-21 11:08:49,032 [INFO] Mensagem recebida no canal de replicação: REPL|2|PRIV|1|2|2025-05-21 11:08:49|oi
+2025-05-21 11:08:49,991 [INFO] [2] Declarado como coordenador.
+2025-05-21 11:08:49,991 [INFO] Coordenador 2: pedido de sincronização enviado.
+2025-05-21 11:08:49,991 [INFO] Mensagem recebida no canal de replicação: ELEC|2|COORDINATOR
+2025-05-21 11:08:49,991 [INFO] Mensagem recebida no canal de replicação: ELEC|2|COORDINATOR
+2025-05-21 11:08:49,991 [INFO] Servidor 2 atualiza coordenador para 2.
+2025-05-21 11:08:49,991 [INFO] Servidor 1 atualiza coordenador para 2.
+2025-05-21 11:08:49,991 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|2|1747836529.9919953
+2025-05-21 11:08:49,991 [INFO] Servidor 1 enviou SYNC|REPLY com seu horário.
+2025-05-21 11:08:49,991 [INFO] Mensagem recebida no canal de replicação: SYNC|REPLY|1|1747836529.9919953
+2025-05-21 11:08:49,991 [INFO] Sincronização: recebida resposta de 1 com tempo 1747836529.9919953.
+2025-05-21 11:08:50,656 [INFO] [1] Declarado como coordenador.
+2025-05-21 11:08:50,656 [INFO] Coordenador 1: pedido de sincronização enviado.
+2025-05-21 11:08:50,656 [INFO] Mensagem recebida no canal de replicação: ELEC|1|COORDINATOR
+2025-05-21 11:08:50,656 [INFO] Mensagem recebida no canal de replicação: ELEC|1|COORDINATOR
+2025-05-21 11:08:50,656 [INFO] Servidor 1 atualiza coordenador para 1.
+2025-05-21 11:08:50,656 [INFO] Servidor 2 atualiza coordenador para 1.
+2025-05-21 11:08:50,656 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747836530.6568527
+2025-05-21 11:08:50,656 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747836530.6568527
+2025-05-21 11:08:50,656 [INFO] Servidor 2 enviou SYNC|REPLY com seu horário.
+2025-05-21 11:08:50,656 [INFO] Mensagem recebida no canal de replicação: SYNC|REPLY|2|1747836530.6568527
+2025-05-21 11:08:50,656 [INFO] Mensagem recebida no canal de replicação: SYNC|REPLY|2|1747836530.6568527
+2025-05-21 11:08:50,656 [INFO] Sincronização: recebida resposta de 2 com tempo 1747836530.6568527.
+2025-05-21 11:08:50,656 [INFO] Sincronização: recebida resposta de 2 com tempo 1747836530.6568527.
+2025-05-21 23:25:46,052 [INFO] Servidor 2 iniciado e aguardando comandos...
+2025-05-21 23:25:46,052 [INFO] Servidor 2 escutando mensagens de replicação, eleição e sincronização.
+2025-05-21 23:25:46,062 [INFO] Servidor 1 iniciado e aguardando comandos...
+2025-05-21 23:25:46,070 [INFO] Servidor 1 escutando mensagens de replicação, eleição e sincronização.
+2025-05-21 23:25:47,036 [INFO] Mensagem recebida no canal de replicação: ELEC|2|ELECTION
+2025-05-21 23:25:47,036 [INFO] Servidor 3 enviando OK para a eleição em resposta a 2.
+2025-05-21 23:25:47,036 [INFO] Mensagem recebida no canal de replicação: ELEC|2|ELECTION
+2025-05-21 23:25:47,036 [INFO] Mensagem recebida no canal de replicação: ELEC|2|ELECTION
+2025-05-21 23:25:47,036 [INFO] Mensagem recebida no canal de replicação: ELEC|3|OK
+2025-05-21 23:25:47,036 [INFO] Servidor 3 recebeu OK na eleição de 3.
+2025-05-21 23:25:47,036 [INFO] Mensagem recebida no canal de replicação: ELEC|3|OK
+2025-05-21 23:25:47,036 [INFO] Servidor 2 recebeu OK na eleição de 3.
+2025-05-21 23:25:47,036 [INFO] Servidor 1 recebeu OK na eleição de 3.
+2025-05-21 23:25:47,912 [INFO] Mensagem recebida no canal de replicação: ELEC|1|ELECTION
+2025-05-21 23:25:47,912 [INFO] Mensagem recebida no canal de replicação: ELEC|1|ELECTION
+2025-05-21 23:25:47,912 [INFO] Servidor 2 enviando OK para a eleição em resposta a 1.
+2025-05-21 23:25:47,912 [INFO] Servidor 3 enviando OK para a eleição em resposta a 1.
+2025-05-21 23:25:47,912 [INFO] Mensagem recebida no canal de replicação: ELEC|3|OK
+2025-05-21 23:25:47,912 [INFO] Servidor 3 recebeu OK na eleição de 3.
+2025-05-21 23:25:47,912 [INFO] Mensagem recebida no canal de replicação: ELEC|3|OK
+2025-05-21 23:25:47,912 [INFO] Servidor 2 recebeu OK na eleição de 3.
+2025-05-21 23:25:47,912 [INFO] Mensagem recebida no canal de replicação: ELEC|3|OK
+2025-05-21 23:25:47,912 [INFO] Servidor 1 recebeu OK na eleição de 3.
+2025-05-21 23:25:47,912 [INFO] Mensagem recebida no canal de replicação: ELEC|2|OK
+2025-05-21 23:25:47,912 [INFO] Mensagem recebida no canal de replicação: ELEC|2|OK
+2025-05-21 23:25:47,912 [INFO] Mensagem recebida no canal de replicação: ELEC|2|OK
+2025-05-21 23:25:47,912 [INFO] Servidor 1 recebeu OK na eleição de 2.
+2025-05-21 23:25:47,912 [INFO] Servidor 3 recebeu OK na eleição de 2.
+2025-05-21 23:25:47,912 [INFO] Servidor 2 recebeu OK na eleição de 2.
+2025-05-21 23:25:48,061 [INFO] Mensagem recebida no canal de replicação: ELEC|3|ELECTION
+2025-05-21 23:25:48,061 [INFO] Mensagem recebida no canal de replicação: ELEC|3|ELECTION
+2025-05-21 23:25:50,896 [INFO] Servidor 3 recebeu comando: PRIV|1|4|oi
+2025-05-21 23:25:50,896 [INFO] Mensagem privada enviada de 1 para 4: oi
+2025-05-21 23:25:50,896 [INFO] Mensagem recebida no canal de replicação: REPL|3|PRIV|1|4|2025-05-21 23:25:50|oi
+2025-05-21 23:25:50,896 [INFO] Mensagem recebida no canal de replicação: REPL|3|PRIV|1|4|2025-05-21 23:25:50|oi
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: ELEC|3|COORDINATOR
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: ELEC|3|COORDINATOR
+2025-05-21 23:25:55,065 [INFO] Servidor 2 atualiza coordenador para 3.
+2025-05-21 23:25:55,065 [INFO] Servidor 1 atualiza coordenador para 3.
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|3|1747880755.0654469
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|3|1747880755.0654469
+2025-05-21 23:25:55,065 [INFO] Servidor 1 enviou SYNC|REPLY com seu horário.
+2025-05-21 23:25:55,065 [INFO] Servidor 2 enviou SYNC|REPLY com seu horário.
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: SYNC|REPLY|1|1747880755.0654469
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: SYNC|REPLY|1|1747880755.0654469
+2025-05-21 23:25:55,065 [INFO] Sincronização: recebida resposta de 1 com tempo 1747880755.0654469.
+2025-05-21 23:25:55,065 [INFO] Sincronização: recebida resposta de 1 com tempo 1747880755.0654469.
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: SYNC|REPLY|2|1747880755.0654469
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: SYNC|REPLY|2|1747880755.0654469
+2025-05-21 23:25:55,065 [INFO] Sincronização: recebida resposta de 2 com tempo 1747880755.0654469.
+2025-05-21 23:25:55,065 [INFO] Sincronização: recebida resposta de 2 com tempo 1747880755.0654469.
+2025-05-21 23:25:55,065 [INFO] Mensagem recebida no canal de replicação: SYNC|REPLY|2|1747880755.0654469
+2025-05-21 23:25:55,065 [INFO] Sincronização: recebida resposta de 2 com tempo 1747880755.0654469.
+2025-05-21 23:26:00,067 [INFO] Ajuste de relógio: offset modificado em -3.3343935012817383 segundos. Novo offset: -3.3343935012817383
+2025-05-21 23:26:00,067 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|-3.3343935012817383
+2025-05-21 23:26:00,067 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|-3.3343935012817383
+2025-05-21 23:26:00,067 [INFO] Ajuste de relógio: offset modificado em -3.3343935012817383 segundos. Novo offset: -6.668787002563477
+2025-05-21 23:26:00,067 [INFO] Ajuste de relógio: offset modificado em -3.3343935012817383 segundos. Novo offset: -3.3343935012817383
+2025-05-21 23:26:00,067 [INFO] Sincronização: ajuste aplicado para ALL com offset -3.3343935012817383.
+2025-05-22 10:51:18,358 [INFO] Servidor 1 iniciado e aguardando comandos...
+2025-05-22 10:51:18,366 [INFO] Servidor 1 escutando mensagens de replicação, eleição e sincronização.
+2025-05-22 10:51:19,592 [INFO] Mensagem recebida no canal de replicação: ELEC|1|ELECTION
+2025-05-22 11:01:34,780 [INFO] Servidor 1 iniciado e aguardando comandos...
+2025-05-22 11:01:34,780 [INFO] Servidor 1 escutando mensagens de replicação, eleição e sincronização.
+2025-05-22 11:01:35,351 [INFO] Mensagem recebida no canal de replicação: ELEC|1|ELECTION
+2025-05-22 11:01:42,359 [INFO] Mensagem recebida no canal de replicação: ELEC|1|COORDINATOR
+2025-05-22 11:01:42,359 [INFO] Servidor 1 atualiza coordenador para 1.
+2025-05-22 11:01:42,359 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922502.359459
+2025-05-22 11:01:47,368 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:01:47,368 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:01:47,368 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:01:47,368 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:02:17,370 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922537.3706973
+2025-05-22 11:02:22,377 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:02:22,377 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:02:22,377 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:02:22,377 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:02:52,380 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922572.380599
+2025-05-22 11:02:57,389 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:02:57,389 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:02:57,389 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:02:57,389 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:03:27,390 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922607.3902159
+2025-05-22 11:03:32,402 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:03:32,402 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:03:32,402 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:03:32,402 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:04:02,406 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922642.4059339
+2025-05-22 11:04:07,417 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:04:07,417 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:04:07,418 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:04:07,418 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:04:37,432 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922677.4328828
+2025-05-22 11:04:42,439 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:04:42,439 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:04:42,439 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:04:42,439 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:05:12,441 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922712.4410083
+2025-05-22 11:05:17,447 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:05:17,447 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:05:17,447 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:05:17,447 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:05:47,454 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922747.454506
+2025-05-22 11:05:52,466 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:05:52,466 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:05:52,466 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:05:52,466 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:06:22,472 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922782.472235
+2025-05-22 11:06:27,489 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:06:27,489 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:06:27,489 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:06:27,489 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:07:05,436 [INFO] Servidor 1 iniciado e aguardando comandos...
+2025-05-22 11:07:05,436 [INFO] Servidor 1 escutando mensagens de replicação, eleição e sincronização.
+2025-05-22 11:07:06,848 [INFO] Mensagem recebida no canal de replicação: ELEC|1|ELECTION
+2025-05-22 11:07:13,863 [INFO] Mensagem recebida no canal de replicação: ELEC|1|COORDINATOR
+2025-05-22 11:07:13,863 [INFO] Servidor 1 atualiza coordenador para 1.
+2025-05-22 11:07:13,863 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922833.8630052
+2025-05-22 11:07:18,872 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:07:18,872 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:07:18,872 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:07:18,872 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:07:48,874 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922868.8744364
+2025-05-22 11:07:53,876 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:07:53,876 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:07:53,876 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:07:53,876 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:08:23,880 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922903.880459
+2025-05-22 11:08:28,885 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:08:28,885 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:08:28,885 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:08:28,885 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:08:45,149 [INFO] Servidor 1 recebeu comando: PRIV|1|21|o
+2025-05-22 11:08:45,149 [INFO] Mensagem privada enviada de 1 para 21: o
+2025-05-22 11:08:45,149 [INFO] Mensagem recebida no canal de replicação: REPL|1|PRIV|1|21|2025-05-22 11:08:45|o
+2025-05-22 11:08:48,503 [INFO] Servidor 1 recebeu comando: PRIV|1|2|oi
+2025-05-22 11:08:48,503 [INFO] Mensagem privada enviada de 1 para 2: oi
+2025-05-22 11:08:48,503 [INFO] Mensagem recebida no canal de replicação: REPL|1|PRIV|1|2|2025-05-22 11:08:48|oi
+2025-05-22 11:08:58,893 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922938.8939574
+2025-05-22 11:09:03,903 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:09:03,903 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:09:03,903 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:09:03,903 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:09:33,909 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747922973.909061
+2025-05-22 11:09:38,913 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:09:38,913 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:09:38,913 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:09:38,913 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:09:45,029 [INFO] Servidor 1 recebeu comando: SEGUIR|2|1
+2025-05-22 11:09:45,029 [INFO] O cliente 2 começou a seguir 1.
+2025-05-22 11:09:45,029 [INFO] Mensagem recebida no canal de replicação: REPL|1|SEGUIR|2|1
+2025-05-22 11:09:49,720 [INFO] Servidor 1 recebeu comando: PUB|1|aloo
+2025-05-22 11:09:49,720 [INFO] Publicação de 1 encaminhada: aloo
+2025-05-22 11:09:49,720 [INFO] Mensagem recebida no canal de replicação: REPL|1|PUB|1|2025-05-22 11:09:49|aloo
+2025-05-22 11:10:08,915 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923008.9144855
+2025-05-22 11:10:13,927 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:10:13,927 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:10:13,927 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:10:13,927 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:10:43,937 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923043.9378076
+2025-05-22 11:10:48,939 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:10:48,939 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:10:48,940 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:10:48,940 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:11:18,943 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923078.9438753
+2025-05-22 11:11:23,948 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:11:23,948 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:11:23,949 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:11:23,949 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:11:53,954 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923113.954656
+2025-05-22 11:11:58,962 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:11:58,962 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:11:58,962 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:11:58,962 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:12:28,974 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923148.9745646
+2025-05-22 11:12:33,977 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:12:33,977 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:12:33,977 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:12:33,977 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:13:03,983 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923183.9833431
+2025-05-22 11:13:08,991 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:13:08,991 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:13:08,991 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:13:08,991 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:13:38,998 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923218.9989188
+2025-05-22 11:13:44,008 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:13:44,008 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:13:44,008 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:13:44,008 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:14:14,016 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923254.016229
+2025-05-22 11:14:19,024 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:14:19,025 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:14:19,025 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:14:19,025 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:14:49,027 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923289.0278916
+2025-05-22 11:14:54,033 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:14:54,033 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:14:54,033 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:14:54,033 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:15:24,048 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923324.0480814
+2025-05-22 11:15:29,051 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:15:29,051 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:15:29,051 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:15:29,051 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:15:59,054 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923359.0549924
+2025-05-22 11:16:04,063 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:16:04,063 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:16:04,063 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:16:04,063 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:16:34,069 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923394.0697982
+2025-05-22 11:16:39,077 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:16:39,078 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:16:39,078 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:16:39,078 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:20:41,494 [INFO] Servidor 1 iniciado e aguardando comandos...
+2025-05-22 11:20:41,502 [INFO] Servidor 1 escutando mensagens de replicação, eleição e sincronização.
+2025-05-22 11:21:52,178 [INFO] Servidor 1 iniciado e aguardando comandos...
+2025-05-22 11:21:52,178 [INFO] Servidor 1 escutando mensagens de replicação, eleição e sincronização.
+2025-05-22 11:21:53,494 [INFO] Mensagem recebida no canal de replicação: ELEC|1|ELECTION
+2025-05-22 11:21:59,997 [INFO] Servidor 1 recebeu comando: PUB|2|op
+2025-05-22 11:21:59,997 [INFO] Publicação de 2 encaminhada: op
+2025-05-22 11:21:59,997 [INFO] Mensagem recebida no canal de replicação: REPL|1|PUB|2|2025-05-22 11:21:59|op
+2025-05-22 11:22:00,499 [INFO] Mensagem recebida no canal de replicação: ELEC|1|COORDINATOR
+2025-05-22 11:22:00,499 [INFO] Servidor 1 atualiza coordenador para 1.
+2025-05-22 11:22:00,499 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923720.4991148
+2025-05-22 11:22:05,506 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:22:05,506 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:22:05,506 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:22:05,506 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:22:09,101 [INFO] Servidor 1 recebeu comando: PRIV|2|1|oioi
+2025-05-22 11:22:09,101 [INFO] Mensagem privada enviada de 2 para 1: oioi
+2025-05-22 11:22:09,101 [INFO] Mensagem recebida no canal de replicação: REPL|1|PRIV|2|1|2025-05-22 11:22:09|oioi
+2025-05-22 11:22:35,512 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923755.5125577
+2025-05-22 11:22:40,526 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:22:40,526 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:22:40,526 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:22:40,526 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:23:10,542 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923790.541904
+2025-05-22 11:23:15,546 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:23:15,546 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:23:15,546 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:23:15,546 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:23:45,553 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923825.5535553
+2025-05-22 11:23:50,554 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:23:50,555 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:23:50,555 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:23:50,555 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:23:58,191 [INFO] Servidor 1 recebeu comando: SEGUIR|2|1
+2025-05-22 11:23:58,191 [INFO] O cliente 2 começou a seguir 1.
+2025-05-22 11:23:58,191 [INFO] Mensagem recebida no canal de replicação: REPL|1|SEGUIR|2|1
+2025-05-22 11:24:02,116 [INFO] Servidor 1 recebeu comando: PUB|1|oioi
+2025-05-22 11:24:02,116 [INFO] Publicação de 1 encaminhada: oioi
+2025-05-22 11:24:02,116 [INFO] Mensagem recebida no canal de replicação: REPL|1|PUB|1|2025-05-22 11:24:02|oioi
+2025-05-22 11:24:20,559 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923860.5590103
+2025-05-22 11:24:25,563 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:24:25,563 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:24:25,563 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:24:25,563 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:24:55,570 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923895.569964
+2025-05-22 11:25:00,575 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:25:00,575 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:25:00,575 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:25:00,576 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:25:30,588 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923930.588144
+2025-05-22 11:25:35,589 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:25:35,589 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:25:35,589 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:25:35,589 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:26:05,597 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747923965.597874
+2025-05-22 11:26:10,598 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:26:10,598 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:26:10,599 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:26:10,599 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:26:40,602 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924000.6026855
+2025-05-22 11:26:45,615 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:26:45,615 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:26:45,615 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:26:45,615 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:27:15,624 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924035.62496
+2025-05-22 11:27:20,627 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:27:20,627 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:27:20,627 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:27:20,627 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:27:50,629 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924070.6291735
+2025-05-22 11:27:55,634 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:27:55,634 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:27:55,634 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:27:55,634 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:28:25,641 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924105.6411653
+2025-05-22 11:28:30,646 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:28:30,646 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:28:30,646 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:28:30,646 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:29:00,661 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924140.661345
+2025-05-22 11:29:05,663 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:29:05,663 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:29:05,663 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:29:05,663 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:29:35,673 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924175.673533
+2025-05-22 11:29:40,676 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:29:40,676 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:29:40,676 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:29:40,676 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:30:10,677 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924210.6775835
+2025-05-22 11:30:15,683 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:30:15,683 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:30:15,683 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:30:15,683 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:30:45,698 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924245.6987255
+2025-05-22 11:30:50,708 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:30:50,708 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:30:50,708 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:30:50,708 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:31:20,715 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924280.715436
+2025-05-22 11:31:25,718 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:31:25,718 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:31:25,718 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:31:25,718 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:31:55,719 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924315.7196224
+2025-05-22 11:32:00,727 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:32:00,727 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:32:00,727 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:32:00,727 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:32:30,734 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924350.734449
+2025-05-22 11:32:35,748 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:32:35,748 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:32:35,748 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:32:35,749 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.
+2025-05-22 11:33:05,749 [INFO] Mensagem recebida no canal de replicação: SYNC|REQUEST|1|1747924385.7493663
+2025-05-22 11:33:10,757 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:33:10,757 [INFO] Mensagem recebida no canal de replicação: SYNC|ADJUST|ALL|0.0
+2025-05-22 11:33:10,757 [INFO] Ajuste de relógio: offset modificado em 0.0 segundos. Novo offset: 0.0
+2025-05-22 11:33:10,757 [INFO] Sincronização: ajuste aplicado para ALL com offset 0.0.

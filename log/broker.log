@@ -1,0 +1,492 @@
+mai. 21, 2025 11:25:45 PM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 21, 2025 11:25:46 PM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 21, 2025 11:25:46 PM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 21, 2025 11:25:46 PM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 21, 2025 11:25:46 PM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 21, 2025 11:25:46 PM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 21, 2025 11:25:46 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 21, 2025 11:25:46 PM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 21, 2025 11:25:46 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 21, 2025 11:25:46 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 21, 2025 11:25:46 PM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 21, 2025 11:25:46 PM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 21, 2025 11:25:47 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|2|ELECTION
+mai. 21, 2025 11:25:47 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|3|OK
+mai. 21, 2025 11:25:47 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|1|ELECTION
+mai. 21, 2025 11:25:47 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|3|OK
+mai. 21, 2025 11:25:47 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|2|OK
+mai. 21, 2025 11:25:48 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|3|ELECTION
+mai. 21, 2025 11:25:50 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|3|PRIV|1|4|2025-05-21 23:25:50|oi
+mai. 21, 2025 11:25:50 PM Broker$NotificationLoop run
+INFORMAÇÕES: Notificação encaminhada: PVT|4|Private from Cliente 1 at 2025-05-21 23:25:50: oi
+mai. 21, 2025 11:25:55 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|3|COORDINATOR
+mai. 21, 2025 11:25:55 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|3|1747880755.0654469
+mai. 21, 2025 11:25:55 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REPLY|1|1747880755.0654469
+mai. 21, 2025 11:25:55 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REPLY|2|1747880755.0654469
+mai. 21, 2025 11:26:00 PM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|-3.3343935012817383
+mai. 22, 2025 10:41:37 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 10:41:37 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 10:41:37 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 10:41:37 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 10:41:37 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 10:41:37 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 10:41:37 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 10:41:37 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 10:41:37 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 10:41:37 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 10:41:37 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 10:41:37 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 10:43:00 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 10:43:00 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 10:43:00 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 10:43:00 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 10:43:00 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 10:43:00 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 10:43:00 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 10:43:00 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 10:43:00 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 10:43:00 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 10:43:00 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 10:43:00 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 10:45:57 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 10:45:57 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 10:45:57 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 10:45:57 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 10:45:57 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 10:45:57 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 10:45:57 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 10:45:57 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 10:45:57 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 10:45:57 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 10:45:57 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 10:45:57 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 10:47:47 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 10:47:48 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 10:47:48 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 10:47:48 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 10:47:48 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 10:47:48 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 10:47:48 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 10:47:48 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 10:47:48 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 10:47:48 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 10:47:48 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 10:47:48 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 10:51:18 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 10:51:18 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 10:51:18 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 10:51:18 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 10:51:18 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 10:51:18 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 10:51:18 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 10:51:18 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 10:51:18 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 10:51:18 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 10:51:18 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 10:51:18 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 10:51:19 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|1|ELECTION
+mai. 22, 2025 11:01:34 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 11:01:34 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 11:01:34 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 11:01:34 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 11:01:34 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 11:01:34 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 11:01:34 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 11:01:34 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 11:01:34 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 11:01:34 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 11:01:34 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 11:01:34 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 11:01:35 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|1|ELECTION
+mai. 22, 2025 11:01:42 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|1|COORDINATOR
+mai. 22, 2025 11:01:42 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922502.359459
+mai. 22, 2025 11:01:47 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:02:17 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922537.3706973
+mai. 22, 2025 11:02:22 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:02:52 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922572.380599
+mai. 22, 2025 11:02:57 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:03:27 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922607.3902159
+mai. 22, 2025 11:03:32 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:04:02 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922642.4059339
+mai. 22, 2025 11:04:07 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:04:37 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922677.4328828
+mai. 22, 2025 11:04:42 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:05:12 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922712.4410083
+mai. 22, 2025 11:05:17 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:05:47 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922747.454506
+mai. 22, 2025 11:05:52 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:06:22 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922782.472235
+mai. 22, 2025 11:06:27 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:07:05 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 11:07:05 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 11:07:05 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 11:07:05 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 11:07:05 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 11:07:05 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 11:07:05 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 11:07:05 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 11:07:05 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 11:07:05 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 11:07:05 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 11:07:05 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 11:07:06 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|1|ELECTION
+mai. 22, 2025 11:07:13 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|1|COORDINATOR
+mai. 22, 2025 11:07:13 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922833.8630052
+mai. 22, 2025 11:07:18 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:07:48 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922868.8744364
+mai. 22, 2025 11:07:53 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:08:23 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922903.880459
+mai. 22, 2025 11:08:28 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:08:45 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|1|PRIV|1|21|2025-05-22 11:08:45|o
+mai. 22, 2025 11:08:45 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notificação encaminhada: PVT|21|Private from Cliente 1 at 2025-05-22 11:08:45: o
+mai. 22, 2025 11:08:48 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|1|PRIV|1|2|2025-05-22 11:08:48|oi
+mai. 22, 2025 11:08:48 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notificação encaminhada: PVT|2|Private from Cliente 1 at 2025-05-22 11:08:48: oi
+mai. 22, 2025 11:08:58 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922938.8939574
+mai. 22, 2025 11:09:03 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:09:33 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747922973.909061
+mai. 22, 2025 11:09:38 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:09:45 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|1|SEGUIR|2|1
+mai. 22, 2025 11:09:49 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|1|PUB|1|2025-05-22 11:09:49|aloo
+mai. 22, 2025 11:09:49 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notificação encaminhada: Cliente 1: 2025-05-22 11:09:49 - aloo
+mai. 22, 2025 11:10:08 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923008.9144855
+mai. 22, 2025 11:10:13 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:10:43 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923043.9378076
+mai. 22, 2025 11:10:48 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:11:18 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923078.9438753
+mai. 22, 2025 11:11:23 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:11:53 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923113.954656
+mai. 22, 2025 11:11:58 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:12:28 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923148.9745646
+mai. 22, 2025 11:12:33 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:13:03 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923183.9833431
+mai. 22, 2025 11:13:08 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:13:38 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923218.9989188
+mai. 22, 2025 11:13:44 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:14:14 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923254.016229
+mai. 22, 2025 11:14:19 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:14:49 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923289.0278916
+mai. 22, 2025 11:14:54 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:15:24 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923324.0480814
+mai. 22, 2025 11:15:29 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:15:59 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923359.0549924
+mai. 22, 2025 11:16:04 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:16:34 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923394.0697982
+mai. 22, 2025 11:16:39 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:20:41 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 11:20:41 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 11:20:41 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 11:20:41 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 11:20:41 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 11:20:41 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 11:20:41 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 11:20:41 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 11:20:41 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 11:20:41 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 11:20:41 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 11:20:41 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 11:21:52 AM Broker main
+INFORMAÇÕES: Iniciando Broker...
+mai. 22, 2025 11:21:52 AM Broker main
+INFORMAÇÕES: Frontend (ROUTER) ligado a tcp://*:5555
+mai. 22, 2025 11:21:52 AM Broker main
+INFORMAÇÕES: Backend (DEALER) ligado a tcp://*:5556
+mai. 22, 2025 11:21:52 AM Broker main
+INFORMAÇÕES: Broker iniciado e aguardando mensagens...
+mai. 22, 2025 11:21:52 AM Broker main
+INFORMAÇÕES: Thread de replicação iniciada.
+mai. 22, 2025 11:21:52 AM Broker main
+INFORMAÇÕES: Thread de notificações iniciada.
+mai. 22, 2025 11:21:52 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PULL socket bound to tcp://*:5571
+mai. 22, 2025 11:21:52 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PULL socket bound to tcp://*:5581
+mai. 22, 2025 11:21:52 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication PUB socket bound to tcp://*:5570
+mai. 22, 2025 11:21:52 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Broker de replicação iniciado.
+mai. 22, 2025 11:21:52 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notification PUB socket bound to tcp://*:5560
+mai. 22, 2025 11:21:52 AM Broker$NotificationLoop run
+INFORMAÇÕES: Broker de notificações iniciado.
+mai. 22, 2025 11:21:53 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|1|ELECTION
+mai. 22, 2025 11:21:59 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|1|PUB|2|2025-05-22 11:21:59|op
+mai. 22, 2025 11:21:59 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notificação encaminhada: Cliente 2: 2025-05-22 11:21:59 - op
+mai. 22, 2025 11:22:00 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: ELEC|1|COORDINATOR
+mai. 22, 2025 11:22:00 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923720.4991148
+mai. 22, 2025 11:22:05 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:22:09 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|1|PRIV|2|1|2025-05-22 11:22:09|oioi
+mai. 22, 2025 11:22:09 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notificação encaminhada: PVT|1|Private from Cliente 2 at 2025-05-22 11:22:09: oioi
+mai. 22, 2025 11:22:35 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923755.5125577
+mai. 22, 2025 11:22:40 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:23:10 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923790.541904
+mai. 22, 2025 11:23:15 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:23:45 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923825.5535553
+mai. 22, 2025 11:23:50 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:23:58 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|1|SEGUIR|2|1
+mai. 22, 2025 11:24:02 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: REPL|1|PUB|1|2025-05-22 11:24:02|oioi
+mai. 22, 2025 11:24:02 AM Broker$NotificationLoop run
+INFORMAÇÕES: Notificação encaminhada: Cliente 1: 2025-05-22 11:24:02 - oioi
+mai. 22, 2025 11:24:20 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923860.5590103
+mai. 22, 2025 11:24:25 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:24:55 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923895.569964
+mai. 22, 2025 11:25:00 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:25:30 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923930.588144
+mai. 22, 2025 11:25:35 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:26:05 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747923965.597874
+mai. 22, 2025 11:26:10 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:26:40 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924000.6026855
+mai. 22, 2025 11:26:45 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:27:15 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924035.62496
+mai. 22, 2025 11:27:20 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:27:50 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924070.6291735
+mai. 22, 2025 11:27:55 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:28:25 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924105.6411653
+mai. 22, 2025 11:28:30 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:29:00 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924140.661345
+mai. 22, 2025 11:29:05 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:29:35 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924175.673533
+mai. 22, 2025 11:29:40 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:30:10 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924210.6775835
+mai. 22, 2025 11:30:15 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:30:45 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924245.6987255
+mai. 22, 2025 11:30:50 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:31:20 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924280.715436
+mai. 22, 2025 11:31:25 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:31:55 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924315.7196224
+mai. 22, 2025 11:32:00 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:32:30 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924350.734449
+mai. 22, 2025 11:32:35 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0
+mai. 22, 2025 11:33:05 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|REQUEST|1|1747924385.7493663
+mai. 22, 2025 11:33:10 AM Broker$ReplicationLoop run
+INFORMAÇÕES: Replication: mensagem encaminhada: SYNC|ADJUST|ALL|0.0

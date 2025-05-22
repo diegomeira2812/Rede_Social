@@ -8,7 +8,7 @@ public class Broker {
     private static final Logger logger = Logger.getLogger("BrokerLog");
     static {
         try {
-            FileHandler fh = new FileHandler("broker.log", true);
+            FileHandler fh = new FileHandler("log/broker.log", true);
             fh.setFormatter(new SimpleFormatter());
             logger.addHandler(fh);
             logger.setLevel(Level.INFO);

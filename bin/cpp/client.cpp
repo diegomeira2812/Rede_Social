@@ -49,10 +49,10 @@ void subscribe_notifications(zmq::context_t &context, const std::string &client_
 
         // Filtra mensagens privadas
         if (msg.find(sub_filter) == 0) {
-            std::cout << "\n[Mensagem Privada]: " << msg << std::endl;
+            std::cout << "\n[Nova Mensagem Privada]: " << msg << std::endl;
             logEvent("Mensagem Privada recebida: " + msg);
         } else {
-            std::cout << "\n[Notificacao Publica]: " << msg << std::endl;
+            std::cout << "\n[Nova publicacao]: " << msg << std::endl;
             logEvent("Notificacao Publica recebida: " + msg);
         }
     }
@@ -71,7 +71,7 @@ int main(int argc, char *argv[]) {
     std::string client_id = (argc > 1) ? argv[1] : "1";
     
     // Abre o arquivo log para o cliente (ex.: client1.log)
-    logFile.open("client" + client_id + ".log", std::ios_base::app);
+    logFile.open("log/client" + client_id + ".log", std::ios_base::app);
     logEvent("Cliente " + client_id + " iniciado.");
     
     zmq::context_t context(1);

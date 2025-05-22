@@ -3,7 +3,7 @@ from datetime import datetime
 
 # Configuração do logging para o servidor
 logging.basicConfig(
-    filename='server.log',
+    filename='log/server.log',
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s'
 )
@@ -199,7 +199,7 @@ def server_loop(server_id):
                 timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 final_notification = f"Cliente {publisher_id}: {timestamp} - {message}"
                 notif_push_socket.send_string(final_notification)
-                rep_socket.send_string("Publicação enviada.")
+                rep_socket.send_string("Publicacao enviada.")
                 replication_msg = f"REPL|{server_id}|PUB|{publisher_id}|{timestamp}|{message}"
                 rep_push_socket.send_string(replication_msg)
                 logging.info(f"Publicação de {publisher_id} encaminhada: {message}")
