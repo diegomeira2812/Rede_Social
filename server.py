@@ -1,5 +1,12 @@
-import zmq, threading, time, sys, random
+import zmq, threading, time, sys, random, logging
 from datetime import datetime
+
+# Configuração do logging para o servidor
+logging.basicConfig(
+    filename='server.log',
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s'
+)
 
 # Variáveis globais para eleição e sincronização
 coordinator_id = None
@@ -25,6 +32,7 @@ def adjust_clock(offset):
     """Ajusta o offset do relógio local."""
     global local_offset
     local_offset += offset
+    logging.info(f"Ajuste de relógio: offset modificado em {offset} segundos. Novo offset: {local_offset}")
 
 # Socket global para enviar mensagens de eleição e sincronização
 global_rep_push_socket = None
@@ -34,7 +42,7 @@ def replication_listener(context, server_id):
     Escuta mensagens enviadas para o canal de replicação, eleição e sincronização.
     Essas mensagens são aquelas enviadas por outros servidores.
     """
-    global last_coordinator_sync
+    global last_coordinator_sync, coordinator_id, election_ok_received, sync_replies, last_coordinator_sync
     rep_sub_socket = context.socket(zmq.SUB)
     rep_sub_socket.connect("tcp://localhost:5570")
     # Inscrever-se para os três tipos de tópicos:
@@ -42,18 +50,18 @@ def replication_listener(context, server_id):
     rep_sub_socket.setsockopt_string(zmq.SUBSCRIBE, "ELEC|")
     rep_sub_socket.setsockopt_string(zmq.SUBSCRIBE, "SYNC|")
     
-    print(f"Servidor {server_id} escutando mensagens de replicação, eleição e sincronização.")
+    logging.info(f"Servidor {server_id} escutando mensagens de replicação, eleição e sincronização.")
     
     while True:
         try:
             msg = rep_sub_socket.recv_string()
+            logging.info(f"Mensagem recebida no canal de replicação: {msg}")
             parts = msg.split("|")
             topic = parts[0]
             if topic == "REPL":
-                # Processamento de mensagens de replicação (podem ser ignoradas para eleição/sync)
+                # Processamento de mensagens de replicação (pode incluir log, se necessário)
                 pass
             elif topic == "ELEC":
-                # Formato: ELEC|<sender_id>|<tipo>
                 sender_id = parts[1]
                 msg_type = parts[2]
                 try:
@@ -64,82 +72,77 @@ def replication_listener(context, server_id):
                     sender_id_num = sender_id
 
                 if msg_type == "ELECTION":
-                    # Se meu ID for maior, respondo com OK
                     if my_id_num > sender_id_num:
                         global_rep_push_socket.send_string(f"ELEC|{server_id}|OK")
+                        logging.info(f"Servidor {server_id} enviando OK para a eleição em resposta a {sender_id}.")
                 elif msg_type == "OK":
                     with election_lock:
                         election_ok_received = True
+                        logging.info(f"Servidor {server_id} recebeu OK na eleição de {sender_id}.")
                 elif msg_type == "COORDINATOR":
-                    # Atualiza o coordenador e o tempo de último pulso recebido
                     coordinator_id = sender_id
                     last_coordinator_sync = time.time()
+                    logging.info(f"Servidor {server_id} atualiza coordenador para {sender_id}.")
             elif topic == "SYNC":
                 msg_type = parts[1]
                 if msg_type == "REPLY":
-                    # Formato: SYNC|REPLY|<server_id>|<local_time>
                     sender = parts[2]
                     sender_time = float(parts[3])
                     with sync_lock:
                         sync_replies[sender] = sender_time
+                    logging.info(f"Sincronização: recebida resposta de {sender} com tempo {sender_time}.")
                 elif msg_type == "ADJUST":
-                    # Formato: SYNC|ADJUST|<target_id>|<offset>
                     target = parts[2]
                     offset = float(parts[3])
                     if target == server_id or target == "ALL":
                         adjust_clock(offset)
+                        logging.info(f"Sincronização: ajuste aplicado para {target} com offset {offset}.")
                 elif msg_type == "REQUEST":
-                    # Se não for o coordenador, responde com seu horário local
                     if coordinator_id != server_id:
                         global_rep_push_socket.send_string(f"SYNC|REPLY|{server_id}|{get_local_clock()}")
+                        logging.info(f"Servidor {server_id} enviou SYNC|REPLY com seu horário.")
         except zmq.ZMQError:
             break
     rep_sub_socket.close()
 
 def election_and_sync_manager(server_id):
-    """
-    Gerencia a eleição (usando o algoritmo de Bully) e, se for o coordenador,
-    a sincronização de relógios via algoritmo de Berkeley.
-    
-    1. Se não houver coordenador (ou se o coordenador falhar devido a timeout), inicia a eleição:
-       - Aguarda um atraso aleatório antes de enviar "ELEC|<server_id>|ELECTION".
-       - Espera 5 segundos para respostas; se não receber OK, declara-se coordenador.
-    2. Se este servidor for o coordenador, periodicamente (a cada 30s) inicia uma rodada de sincronização:
-       - Envia um "SYNC|REQUEST" e aguarda respostas.
-       - Calcula a média dos tempos e envia um ajuste via "SYNC|ADJUST".
-    """
     global coordinator_id, election_ok_received, sync_replies, last_coordinator_sync
     while True:
-        # Se houver um coordenador (diferente de mim), verifique se ele está "pulando"
+        # Verifica se o coordenador atual está com timeout
         if coordinator_id is not None and coordinator_id != server_id:
+        #if coordinator_id is None and not election_ok_received:
             if last_coordinator_sync is not None and (time.time() - last_coordinator_sync > sync_timeout):
-                print(f"[{server_id}] Timeout do coordenador {coordinator_id}. Reiniciando eleição.")
+                print(f"[DEBUG] {server_id} detectou timeout do coordenador {coordinator_id}. Reiniciando eleição.")
                 coordinator_id = None
         
         if coordinator_id is None:
-            # Espera um atraso aleatório para evitar eleições simultâneas
             delay = random.uniform(0.5, 2.0)
             time.sleep(delay)
             with election_lock:
                 election_ok_received = False
             global_rep_push_socket.send_string(f"ELEC|{server_id}|ELECTION")
-            # Aguarda 5 segundos para respostas
-            time.sleep(5)
+            print(f"[DEBUG] {server_id} iniciou uma eleição (delay de {delay:.2f} segundos).")
+            time.sleep(7)  # Aguarda as respostas
+
             with election_lock:
                 if not election_ok_received:
                     coordinator_id = server_id
                     global_rep_push_socket.send_string(f"ELEC|{server_id}|COORDINATOR")
-                    print(f"[{server_id}] Declarado como coordenador.")
                     last_coordinator_sync = time.time()
+                    print(f"[DEBUG] {server_id} se declarou COORDENADOR!")
                 else:
+                    print(f"[DEBUG] {server_id} recebeu resposta OK, logo não se declara coordenador.")
                     time.sleep(3)
+
         else:
+            # Se este servidor é o coordenador, inicia a sincronização de relógios
             if coordinator_id == server_id:
                 with sync_lock:
                     sync_replies = {}
-                # Inicia a sincronização: envia um pedido de horário
                 global_rep_push_socket.send_string(f"SYNC|REQUEST|{server_id}|{get_local_clock()}")
-                time.sleep(5)  # tempo para aguardar as respostas
+                print(f"[DEBUG] {server_id} (COORDENADOR) enviou pedido de sincronização.")
+                time.sleep(5)  # Tempo para aguardar respostas
+
                 my_clock = get_local_clock()
                 with sync_lock:
                     total_time = my_clock + sum(sync_replies.values())
@@ -147,10 +150,11 @@ def election_and_sync_manager(server_id):
                 avg_time = total_time / count
                 own_offset = avg_time - my_clock
                 adjust_clock(own_offset)
-                # Envia ajuste para todos os servidores (usando "ALL" como receptor)
                 global_rep_push_socket.send_string(f"SYNC|ADJUST|ALL|{own_offset}")
+                print(f"[DEBUG] {server_id} (COORDENADOR) sincronizou relógios com offset {own_offset:.2f}.")
                 last_coordinator_sync = time.time()
             time.sleep(30)
+
 
 def server_loop(server_id):
     context = zmq.Context()
@@ -168,21 +172,21 @@ def server_loop(server_id):
     rep_push_socket.connect("tcp://localhost:5571")
     
     global global_rep_push_socket
-    global_rep_push_socket = rep_push_socket  # Tornando-o acessível para as outras threads
+    global_rep_push_socket = rep_push_socket
     
+    logging.info(f"Servidor {server_id} iniciado e aguardando comandos...")
     print(f"Servidor {server_id} iniciado e aguardando comandos...")
     
-    # Inicia a thread que escuta mensagens de replicação, eleição e sincronização
     rep_listener_thread = threading.Thread(target=replication_listener, args=(context, server_id), daemon=True)
     rep_listener_thread.start()
     
-    # Inicia a thread que gerencia eleição e sincronização
     election_thread = threading.Thread(target=election_and_sync_manager, args=(server_id,), daemon=True)
     election_thread.start()
     
     while True:
         try:
             request = rep_socket.recv_string()
+            logging.info(f"Servidor {server_id} recebeu comando: {request}")
             parts = request.split("|")
             command = parts[0].upper()
             
@@ -198,6 +202,7 @@ def server_loop(server_id):
                 rep_socket.send_string("Publicação enviada.")
                 replication_msg = f"REPL|{server_id}|PUB|{publisher_id}|{timestamp}|{message}"
                 rep_push_socket.send_string(replication_msg)
+                logging.info(f"Publicação de {publisher_id} encaminhada: {message}")
             elif command == "SEGUIR":
                 if len(parts) < 3:
                     rep_socket.send_string("Erro")
@@ -210,6 +215,7 @@ def server_loop(server_id):
                 rep_socket.send_string(f"O cliente {client_id} agora segue o {target_id}.")
                 replication_msg = f"REPL|{server_id}|SEGUIR|{client_id}|{target_id}"
                 rep_push_socket.send_string(replication_msg)
+                logging.info(f"O cliente {client_id} começou a seguir {target_id}.")
             elif command == "PRIV":
                 if len(parts) < 4:
                     rep_socket.send_string("Erro")
@@ -223,7 +229,9 @@ def server_loop(server_id):
                 rep_socket.send_string("Mensagem privada enviada.")
                 replication_msg = f"REPL|{server_id}|PRIV|{sender_id}|{target_id}|{timestamp}|{priv_message}"
                 rep_push_socket.send_string(replication_msg)
-        except Exception:
+                logging.info(f"Mensagem privada enviada de {sender_id} para {target_id}: {priv_message}")
+        except Exception as e:
+            logging.error(f"Exceção no server_loop: {str(e)}")
             break
 
     rep_socket.close()

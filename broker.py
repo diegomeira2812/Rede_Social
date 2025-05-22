@@ -2,7 +2,7 @@ import zmq
 import threading
 
 def replication_loop(context):
-    """Gerencia a replicação entre servidores."""
+    # replicação entre servidores
     rep_pull_socket = context.socket(zmq.PULL)
     rep_pull_socket.bind("tcp://*:5571")
     
@@ -21,7 +21,7 @@ def replication_loop(context):
     rep_pub_socket.close()
 
 def notification_loop(context):
-    """Distribui notificações para clientes."""
+    # notificacoes para clientes
     notif_pull = context.socket(zmq.PULL)
     notif_pull.bind("tcp://*:5581")
     
